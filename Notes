@@ -1,0 +1,15 @@
+﻿// Entity framework is an object relational mapper(ORM) that enables .NET developers to work with a database using .NET objects.
+// it eliminates the need for most of the data-access code that developers usually need to write.
+
+// An Object-relational mapper provides an object-oriented layer between relational databases and object-oriented programming languages 
+//without having to write SQL queries. It standardixes interfaces reducing boilerplates and speeding development time.
+
+
+
+Migrations
+
+the migrations features enables you to change the data model and depliy your changes to production by 
+updating the database schema without having to drop and recreate the database.
+we have to enable the migration feature by going to view > other window > package manager console
+in the terminal on the console, type in the command Add-Migration which will enable the migration, a distinct name is needed in quote and press enter
+in other to activate the code in the migration file created we enter the command update-database
